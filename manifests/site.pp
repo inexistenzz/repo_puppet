@@ -1,5 +1,5 @@
 node default {
 }
-node 'master.puppet.vm' {
+node 'qwerty' {
   include role::master_server
  }

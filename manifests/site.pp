@@ -1,11 +1,11 @@
 node default {
 }
 node 'qwerty' {
-  include roles::master_server
+  include role::master_server
  }
 node /^web/ {
-  include roles::app_server
+  include role::app_server
  }
  node /^db/ {
-  include roles::db_server
+  include role::db_server
  }

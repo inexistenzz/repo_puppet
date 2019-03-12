@@ -3,7 +3,7 @@ node default {
 node 'qwerty' {
   include role::master_server
  }
-node 'web.puppet.vm' {
+node /^web/ {
   include role::app_server
  }
  node /^db/ {

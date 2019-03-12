@@ -1,3 +1,3 @@
-class profile::web.puppet.vm {
+class profile::web {
   include nginx
 }

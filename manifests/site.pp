@@ -1,6 +1,6 @@
 node default {
 }
-node 'adm' {
+node 'qwerty' {
   include role::master_server
 }
 node /^web/ {
